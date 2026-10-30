@@ -29,7 +29,7 @@ Open a terminal in the `CueVault/` folder, then:
 dotnet run
 ```
 
-The app will regenerate Tailwind CSS if the CLI is installed, then start the Blazor Server. Open your browser at **https://localhost:7200**. The app targets .NET 8 and supports major-version runtime roll-forward.
+The app will regenerate Tailwind CSS if the CLI is installed, then start the Blazor Server. Open your browser at **http://localhost:5200**. The app targets .NET 8 and supports major-version runtime roll-forward.
 
 ---
 

@@ -22,12 +22,12 @@
         <div aria-live="polite">
             @if (MatchingOrders.Any())
             {
-                <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:24px">
+                <div class="order-results-header">
                     <div>
                         <span class="label">Found them!</span>
-                        <h2 style="font:600 24px/1 var(--serif);margin-top:4px">Your CueVault orders</h2>
+                        <h2>Your CueVault orders</h2>
                     </div>
-                    <span style="font-size:13px;color:var(--muted)">@MatchingOrders.Count() order(s)</span>
+                    <span class="order-count">@MatchingOrders.Count() order(s)</span>
                 </div>
 
                 @foreach (var order in MatchingOrders)
