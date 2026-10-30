@@ -78,7 +78,7 @@ input, select, textarea { font-family: inherit; }
   backdrop-filter: blur(12px);
 }
 .store-header-inner {
-  min-height: 72px;
+  min-height: 60px;
   display: flex;
   align-items: center;
   gap: 24px;
@@ -209,7 +209,7 @@ input, select, textarea { font-family: inherit; }
   border-bottom: 1px solid var(--border);
 }
 .store-nav-inner {
-  min-height: 46px;
+  min-height: 44px;
   display: flex;
   align-items: center;
   gap: 4px;
